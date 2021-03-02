@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+
+body {
+//    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, a {
+    font-family: 'Alegreya', serif;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #009B95;
+}
+
+.header li {
+    display: inline; 
+}
+
+.header__link  {
+    display: inline;
+    color: #009B95;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #009B95;
+    border-radius: 15%;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+    margin: 40px 0;
+}
+
+.main__section {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 30px;
+}
+
+.main__img-wrapper {
+    width: 320px;
+  //  background-color: #009B95;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__img-wrapper img {
+    width: 300px;
+}
+
+.main__subtitle, .footer__subtitle {
+    color: #009B95;
+    margin-top: 40px;
+}
+
+.main__title {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.footer {
+    border-top: 2px solid #009B95;
+}
+
+.footer__link {
+    color: #FF7100;
+}
+
+.footer__cotacts-icon {
+    margin-right: 20px;
+}
